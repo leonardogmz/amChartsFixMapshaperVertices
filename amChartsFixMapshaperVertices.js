@@ -1,6 +1,7 @@
 /**
  * Fix to be able to use the generated maps 
  * with the online maps editor https://mapshaper.org/ with the amCharts library.
+ * The fix consists in reverse the order of all the polygons to invert outside/inside problem.
  *
  * geoJsonMap its equals a geojson object extracted from mapshaper. 
  * 
