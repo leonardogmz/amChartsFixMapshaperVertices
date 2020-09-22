@@ -18,6 +18,5 @@ function fixGeojsonMap(geoJsonMap) {
 				region.geometry.coordinates[key][0].reverse();
 			});
 		}
-});
-
-}
+	});
+};
